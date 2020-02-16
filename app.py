@@ -32,11 +32,11 @@ def home():
         f"Temperature Observations (for the previous year):<br/>"
         f"/api/v1.0/tobs<br/>"
         f"<br/>"
-        f"List of Min, Avg, & Max Temperature for a Start Date:<br/>"
-        f"/api/v1.0/&lt;start&gt;<br/>"
+        f"List of Min, Avg, & Max Temperatures for a Start Date:<br/>"
+        f"/api/v1.0/<start><br/>"
         f"<br/>"
-        f"List of Min, Avg, & Max Temperature for a Start--End Range:<br/>"
-        f"/api/v1.0/&lt;start&gt;/&lt;end&gt;"
+        f"List of Min, Avg, & Max Temperatures for a Start--End Range:<br/>"
+        f"/api/v1.0/<start>/<end>"
     )
 
 
